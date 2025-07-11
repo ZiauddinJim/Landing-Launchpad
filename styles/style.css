@@ -22,6 +22,7 @@
   font-size: 16px;
   font-weight: bold;
   cursor: pointer;
+  transition: transform 0.3s, box-shadow 0.3s;
 }
 .btn-primary:hover {
   background: linear-gradient(90deg, #4e47ff 0%, #ff6fd8 100%);
@@ -192,6 +193,11 @@ nav {
   padding: 24px;
   background-color: rgba(255, 255, 255, 0.5);
   border-radius: 14px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+.fs-card:hover {
+  transform: translateY(-10px) scale(1.03);
+  box-shadow: 0 8px 32px rgba(78, 71, 255, 0.18);
 }
 .fsc-pic {
   display: flex;
